@@ -79,7 +79,7 @@ function WithdrawFunds() {
     <Box className={styles.Moduleborderwrap}>
       <Box className={styles.module}>
         <Heading color="#00FFC4">Withdraw your Liquidity</Heading>
-        <Text fontWeight="light">Deposit your USDT to earn 10% APY</Text>
+        <Text fontWeight="light">Withdraw your USDT from liquidity pool</Text>
         <Flex mt="1rem">
           <Input
             color="white"
