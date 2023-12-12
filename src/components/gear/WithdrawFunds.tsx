@@ -32,7 +32,7 @@ function WithdrawFunds() {
 
   const message: any = {
     destination: programIDFT, // programId
-    payload: { DepositFunds: Number(valueAmount) },
+    payload: { WithdrawFunds: Number(valueAmount) },
     gasLimit: 8998192450,
     value: 0,
   };
@@ -78,7 +78,7 @@ function WithdrawFunds() {
   return (
     <Box className={styles.Moduleborderwrap}>
       <Box className={styles.module}>
-        <Heading color="#00FFC4">Deposit Liquidity</Heading>
+        <Heading color="#00FFC4">Withdraw your Liquidity</Heading>
         <Text fontWeight="light">Deposit your USDT to earn 10% APY</Text>
         <Flex mt="1rem">
           <Input
@@ -86,8 +86,13 @@ function WithdrawFunds() {
             value={valueAmount}
             onChange={AmountInputChange}
           />
-          <Button bgGradient="linear(to-l, #00FFC4 ,#4FFF4B)" onClick={signer}>
-            Deposit
+          <Button
+            w="4rem"
+            bgGradient="linear(to-l, #00FFC4 ,#4FFF4B)"
+            onClick={signer}
+            fontSize=".7rem"
+          >
+            Withdraw
           </Button>
         </Flex>
         <Flex mt="1rem" justify="flex-end">

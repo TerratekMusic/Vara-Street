@@ -28,6 +28,7 @@ import { DepositSynthetic } from "components/gear/DepositSynthetic";
 import { UserLockedBalances } from "components/gear/UserLockedBalances";
 
 import { Footer } from "pages/home/sections/Footer";
+import { WithdrawFunds } from "components/gear/WithdrawFunds";
 import Shilling from "../../assets/images/backgrounds/Vara shillingBG.svg";
 import BgFooter from "../../assets/images/Liquid Footer.svg";
 
@@ -61,6 +62,9 @@ function Dapp() {
               >
                 <Box>
                   <DepositFunds />
+                  <Box mt="1rem">
+                    <WithdrawFunds />
+                  </Box>
                 </Box>
                 <Box>
                   <DepositSynthetic />
