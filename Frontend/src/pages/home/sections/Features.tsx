@@ -38,9 +38,18 @@ function Features() {
         justify="center"
         flexDirection={{ base: "column", sm: "column", md: "row" }}
       >
-        <CardFeatures title="Lending" />
-        <CardFeatures title="Options Trading" />
-        <CardFeatures title="Copy Trading" />
+        <CardFeatures
+          title="Lending"
+          description="Leverage your synthetic assets as collateral for stablecoin borrowing. Our streamlined platform offers secure, transparent lending, giving you the flexibility to enhance your investment strategies effectively."
+        />
+        <CardFeatures
+          title="Options Trading"
+          description="Limit Orders, Puts, and Calls Navigate the complexities of DeFi options trading with ease. Our platform simplifies limit orders, puts, and calls, making advanced trading strategies accessible to all levels of traders."
+        />
+        <CardFeatures
+          title="Copy Trading"
+          description="Replicate the strategies of top DeFi traders in real-time. Our on-chain copy trading service allows you to mirror successful trades, offering a straightforward way to potentially boost your portfolio's performance."
+        />
       </Flex>
     </Container>
   );

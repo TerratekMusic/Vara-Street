@@ -19,7 +19,6 @@ function Hero() {
   return (
     <Container p="0" maxW="100vw" bgGradient="linear(to-l, #121215 ,#284736)">
       <Box w="100vw" bgImg={Gusano} bgRepeat="no-repeat" bgPos="center">
-        <Blocknumber />
         <Stack
           pl={{ base: "1rem", md: "3rem", xl: "8rem", "2xl": "15rem" }}
           pr={{ base: "1rem" }}
