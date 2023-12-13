@@ -6,8 +6,8 @@ Vara_street expands Vara Network's DeFi offerings with innovative services like 
 
 To get started with Vara Street, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/soft-law/zerk.git`
-2. Navigate to the chain, frontend, or smart contracts directory: `cd xxxxxxxx`
+1. Clone the repository: `git clone https://github.com/TerratekMusic/Vara-Street.git`
+2. Navigate  frontend or smart contracts directory: `cd xxxxxxxx`
 3. Ensure to use the 20.10.0v of npm.
 4. Install dependencies: `npm install`
 5. Follow the instructions of each readme included in each directory.
@@ -17,9 +17,9 @@ To get started with Vara Street, follow these steps:
 Is important to follow a series of steps to be organized between ourselves:
 
 - Clone the repository
-- Create a new branch: `git checkout -b feature/zrk-xx-new-feature` (Where xx is the ticket number in Jira)
+- Create a new branch: `git checkout -b feature/VST-xx-new-feature` (Where xx is the ticket number in Jira)
 - Make your changes and commit them: `git commit -m 'Little description of the changes'`
-- Push to the branch: `git push -u origin feature/zrk-xx-new-feature`
+- Push to the branch: `git push -u origin feature/VST-xx-new-feature`
 - Submit a pull request adding a clear description and screenshots if it's necessary.
 - Share the link of the PR in the GitHub channel on the Discord server.
 
