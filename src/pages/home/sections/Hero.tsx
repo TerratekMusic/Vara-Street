@@ -28,32 +28,7 @@ function Hero() {
         >
           <Stack flex={1} spacing={{ base: 5, md: 10 }}>
             <Image w="30rem" src={LogoWhite} />
-            {/* <Heading
-            lineHeight={1.1}
-            fontWeight={600}
-            fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}>
-  
-  
-            <Text
-              as='span'
-              position='relative'
-              _after={{
-                content: "''",
-                width: 'full',
-                height: '30%',
-                position: 'absolute',
-                bottom: 1,
-                left: 0,
-                bg: 'red.400',
-                zIndex: -1,
-              }}>
-              Write once,
-            </Text>
-            <br />
-            <Text as='span' color='red.400'>
-              use everywhere!
-            </Text>
-          </Heading> */}
+
             <Text
               color="gray.100"
               fontWeight="light"
@@ -77,12 +52,7 @@ function Hero() {
               >
                 Go to Dapp
               </Button>
-              <Button
-                size="lg"
-                fontWeight="normal"
-                px={6}
-                // leftIcon={<PlayIcon h={4} w={4} color='gray.300'/>}
-              >
+              <Button size="lg" fontWeight="normal" px={6}>
                 How It Works
               </Button>
             </Stack>

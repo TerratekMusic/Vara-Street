@@ -14,7 +14,7 @@ import LogoVaraWhite from "../../../assets/images/VaraStreetShilling.svg";
 function Shilling() {
   const navigate = useNavigate();
   return (
-    <Box minW="100vw" bgImage={bgShilling} bgRepeat="no-repeat">
+    <Box minW="100vw" bgImage={bgShilling} bgRepeat="no-repeat" bgSize="cover">
       <Stack
         pl={{ base: "1rem", md: "3rem", xl: "8rem", "2xl": "15rem" }}
         pr={{ base: "1rem" }}
