@@ -1,4 +1,4 @@
-import { Box, Flex, Text } from "@chakra-ui/react";
+import { Flex, Text } from "@chakra-ui/react";
 import { GearApi } from "@gear-js/api";
 import { useEffect, useState } from "react";
 

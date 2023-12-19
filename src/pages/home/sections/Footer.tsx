@@ -14,7 +14,7 @@ function Footer() {
           <Image m="1rem" w="5rem" src={logo} />
           <Text m="1rem">Guadalajara, México</Text>
           <Image
-            // onClick={click}
+           
             alignSelf="center"
             m="1rem"
             w="10rem"

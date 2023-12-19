@@ -1,5 +1,4 @@
 import { useAccount, useApi, useAlert } from "@gear-js/react-hooks";
-import { web3FromSource } from "@polkadot/extension-dapp";
 import { ProgramMetadata, encodeAddress } from "@gear-js/api";
 import { useState, useEffect } from "react";
 import { Flex, Text } from "@chakra-ui/react";
